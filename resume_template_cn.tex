@@ -1,0 +1,35 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+
+
+\documentclass[localFont]{./source/resume_source} %alternative
+\usepackage{./font_zn_cn/zh_cn-adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zn_cn-adobe/)
+\usepackage{fontawesome}
+
+\name{黄}{锡涛}
+
+
+\socialinfo{
+	\fontsize{13.75pt}{\baselineskip}{
+		\leftline{ 
+			\color{accentcolor}{\faPhoneSquare}{:18894685185}\quad
+			\color{accentcolor}{\faEnvelope}{:huang\_xi\_tao@outlook.com}\quad
+			\color{accentcolor}{\faWechat}{:H\_XiTao}
+		}
+	}
+}
+
+\begin{document}
+	\makecvheader
+	\input{./section/section_education}				% Section education	
+	\input{./section/section_skills}					% Section Skill
+	\input{./section/open_source}
+	\input{./section/section_project1}					% Section Project
+	\input{./section/section_project2}					% Section Project	
+	\input{./section/section_project3}					% Section Project
+	\input{./section/section_project4}					% Section Awards
+	\input{./section/section_experience}		% Section experiences
+	\input{./section/summary_expectation}		% Section experiences
+
+
+\end{document} 
